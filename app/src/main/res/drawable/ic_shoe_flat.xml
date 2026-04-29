@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Flat / ballet shoe icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M2,15 C2,15 5,12 9,12 L18,12 C19.7,12 21,13.3 21,15 L21,16 C21,16.6 20.6,17 20,17 L4,17 C2.9,17 2,16.1 2,15 Z" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M9,12 L9,9 C9,8.4 9.4,8 10,8 L14,8 C14.6,8 15,8.4 15,9 L15,12" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.2"
+        android:pathData="M9,12 C9,12 11,10 15,12" />
+</vector>

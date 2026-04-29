@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color: warm brown reminiscent of leather -->
+    <color name="primary">#7B3F00</color>
+    <color name="primary_dark">#5D2E00</color>
+    <color name="primary_light">#A86232</color>
+
+    <!-- Accent color: golden/amber -->
+    <color name="accent">#D4A017</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F5F0EB</color>
+    <color name="card_in_stock">#FFFFFF</color>
+    <color name="card_out_of_stock">#F0EBE8</color>
+
+    <!-- Text -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Price: green to highlight value -->
+    <color name="price_color">#2E7D32</color>
+
+    <!-- Divider -->
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Status bar -->
+    <color name="status_bar">#5D2E00</color>
+
+    <!-- Out of stock badge -->
+    <color name="badge_out_of_stock">#C62828</color>
+</resources>

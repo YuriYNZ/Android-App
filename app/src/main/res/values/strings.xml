@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calçados 51</string>
+    <string name="out_of_stock">Fora de Estoque</string>
+    <string name="label_out_of_stock">Fora de estoque</string>
+    <string name="in_stock">Disponível</string>
+    <string name="toggle_out_of_stock_description">Marcar como fora de estoque</string>
+</resources>

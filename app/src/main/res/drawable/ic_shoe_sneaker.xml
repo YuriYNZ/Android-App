@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sneaker / running shoe icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M3,15 L3,13 C3,11.9 3.9,11 5,11 L8,11 L11,7 L16,7 C17.7,7 19.1,8.1 19.5,9.7 L21,15 L3,15 Z" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M3,15 L3,17 L21,17 L21,15" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.2"
+        android:pathData="M8,11 L8,15" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.2"
+        android:pathData="M12,9 L12,15" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.2"
+        android:pathData="M16,8 L16,15" />
+</vector>
