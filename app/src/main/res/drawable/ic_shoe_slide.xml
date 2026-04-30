@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Slide / flip-flop icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M4,16 L20,16 C20,16 20,18 12,18 C4,18 4,16 4,16 Z" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M4,16 L4,15 L20,15 L20,16" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M9,15 L9,10 C9,10 12,8 15,10 L15,15" />
+</vector>

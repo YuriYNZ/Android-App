@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Formal dress shoe / oxford icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M3,16 C3,16 4,13 8,13 L14,13 C16.2,13 19,14 21,16 L3,16 Z" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M3,16 L3,17.5 C3,17.8 3.2,18 3.5,18 L20.5,18 C20.8,18 21,17.8 21,17.5 L21,16" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.5"
+        android:pathData="M8,13 L8,9 C8,8.4 8.4,8 9,8 L14,8 C14.6,8 15,8.4 15,9 L14,13" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.2"
+        android:pathData="M10,8 L10,13" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.2"
+        android:pathData="M12,8 L12,13" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#7B3F00"
+        android:strokeWidth="1.2"
+        android:pathData="M9,10.5 L13,10.5" />
+</vector>

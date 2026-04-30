@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Shoe image -->
+        <ImageView
+            android:id="@+id/imageShoe"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerInside"
+            android:padding="4dp"
+            android:background="@drawable/bg_image_circle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/primary"
+            tools:src="@drawable/ic_shoe_sneaker" />
+
+        <!-- Out of stock badge -->
+        <TextView
+            android:id="@+id/badgeOutOfStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/out_of_stock"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_badge_out_of_stock"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/imageShoe"
+            app:layout_constraintBottom_toBottomOf="@id/imageShoe"
+            tools:visibility="visible" />
+
+        <!-- Shoe name -->
+        <TextView
+            android:id="@+id/textShoeName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            app:layout_constraintStart_toEndOf="@id/imageShoe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imageShoe"
+            tools:text="Tênis Air Max Evolution" />
+
+        <!-- Brand -->
+        <TextView
+            android:id="@+id/textShoeBrand"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            android:textColor="@color/primary"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@id/imageShoe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textShoeName"
+            tools:text="SportFlex" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/textShoeDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintStart_toEndOf="@id/imageShoe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textShoeBrand"
+            tools:text="Tênis esportivo com amortecimento de alta performance para corrida e treino." />
+
+        <!-- Divider -->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/divider"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageShoe" />
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/textShoePrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/price_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            app:layout_constraintEnd_toStartOf="@id/switchOutOfStock"
+            tools:text="R$ 399,99" />
+
+        <!-- Out of stock toggle label -->
+        <TextView
+            android:id="@+id/labelOutOfStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:text="@string/label_out_of_stock"
+            android:textSize="11sp"
+            android:textColor="@color/text_secondary"
+            app:layout_constraintEnd_toStartOf="@id/switchOutOfStock"
+            app:layout_constraintTop_toTopOf="@id/switchOutOfStock"
+            app:layout_constraintBottom_toBottomOf="@id/switchOutOfStock" />
+
+        <!-- Out of stock switch -->
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchOutOfStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

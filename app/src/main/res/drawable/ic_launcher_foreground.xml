@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher foreground: a simple shoe silhouette on white -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shoe body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,70 L20,58 C20,53 24,49 29,49 L48,49 L60,33 L82,33 C89,33 95,38 96,45 L100,70 Z" />
+    <!-- Sole -->
+    <path
+        android:fillColor="#E8D5C0"
+        android:pathData="M20,70 L20,76 L100,76 L100,70 Z" />
+    <!-- Laces -->
+    <path
+        android:fillColor="#7B3F00"
+        android:pathData="M48,49 L48,70 M62,37 L62,70 M76,34 L76,70" />
+</vector>
